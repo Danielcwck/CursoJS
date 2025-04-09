@@ -9,7 +9,7 @@ const porcentajePropina = Number(
 
 const calcularPropina = (costoCuenta, propina) => {
   return costoCuenta * (propina / 100);
-};
+}; // Funcion que calcula la propina
 
 console.log(
   "El valor de la propina es: " +
